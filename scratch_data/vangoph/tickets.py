@@ -2,7 +2,7 @@
 ''' 
 @File : tickets.py 
 @Description: None
-@Contact : 17210180033@fudan.edu.cn
+@Contact : yangsjfdu@163.com
 @Created info: Yangsj 2019-05-26 22:52
 ''' 
 import requests
@@ -32,7 +32,7 @@ def log_info(flag):
 def send_mail(flag,sender='yangsjfdu@163.com',receiver='yangsjfdu@163.com'):
     mail_host = 'smtp.163.com'
     mail_user = 'yangsjfdu@163.com'
-    mail_pass = 'lj363700'
+    mail_pass = '****'
 
     now=time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))
     message=MIMEText(now+'：有'+flag+'的余票','plain','utf-8')
